@@ -1,0 +1,9 @@
+:root{--bg:#071319;--card:#0e1f29;--text:#e6f7f7;--muted:#8ab0b5;--mint:#58ffd2;--cyan:#39b9ff}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:radial-gradient(circle at 15% 0%,#123 0,var(--bg) 45%);color:var(--text);line-height:1.5}
+.container{max-width:1100px;margin:0 auto;padding:24px}header.container{padding-top:36px}section{margin:26px auto;padding:24px;border:1px solid #17303a;border-radius:16px;background:linear-gradient(180deg,rgba(20,35,43,.5),rgba(8,18,24,.6))}
+.eic-banner{display:inline-block;padding:8px 14px;border:1px solid var(--mint);border-radius:999px;color:#bdfce9;font-size:.9rem;margin-bottom:16px}.hero-eyebrow{color:var(--cyan);font-weight:600}h1{font-size:clamp(1.8rem,4vw,3.2rem);margin:.3em 0}h2{font-size:clamp(1.4rem,2.8vw,2rem)}
+.hero-sub,.muted{color:var(--muted)}.cta-row{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}.btn{padding:11px 16px;border-radius:12px;text-decoration:none;font-weight:700}.btn-primary{background:linear-gradient(45deg,var(--cyan),var(--mint));color:#012}.btn-secondary{border:1px solid var(--cyan);color:#a8e7ff}
+.disclaimer{font-size:.9rem;color:#9ec2c7}.grid{display:grid;gap:14px;margin:14px 0}.grid.two{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}.grid.four{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:var(--card);padding:16px;border-radius:12px;border:1px solid #1e3d4a}.badge-row{display:flex;flex-wrap:wrap;gap:8px}.badge-row span{padding:6px 10px;border:1px solid #2b6973;border-radius:999px;color:#a0edf3;font-size:.85rem}
+ul,ol{padding-left:20px}.questions{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:8px}footer{padding-bottom:40px;color:#96c8ca;text-align:center}
+@media (max-width:700px){section{padding:18px}.container{padding:16px}}
